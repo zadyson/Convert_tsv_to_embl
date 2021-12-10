@@ -3,7 +3,7 @@
 # Convert csv to embl format
 # Dr Zoe A. Dyson (zoe.dyson@lshtm.ac.uk)
 #
-# Documentation - 
+# Documentation - https://github.com/zadyson/convert_tsv_to_embl/
 #
 # Dependencies:
 #	 Python2
