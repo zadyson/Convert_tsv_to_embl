@@ -21,8 +21,8 @@ __version__='0.0.1'
 # Set up argument parser 
 def parse_args():
 	"Parse the input arguments, use '-h' for help"
-	parser = ArgumentParser(description='Quality stats for SNVs called by GHRU mapping pipeline')
-	parser.add_argument('--version', action='version', version='GHRU SNV Quality Stats Generator v' + __version__,
+	parser = ArgumentParser(description='Convert tsv regions file to embl format for recombination filtering')
+	parser.add_argument('--version', action='version', version='Convert tsv to embl v' + __version__,
 		help="Show version number and exit")
 	parser.add_argument('--excluded_regions', type=str, required=True,
 		help='Path to tsv file of regions to exclude (i.e. phages and repeats). Should not include a header line.')
