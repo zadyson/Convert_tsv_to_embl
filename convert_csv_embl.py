@@ -16,7 +16,7 @@ from argparse import (ArgumentParser, FileType)
 import os, sys, re, collections, operator
 
 # Version number
-__version__='0.0.6'
+__version__='0.0.1'
 
 # Set up argument parser 
 def parse_args():
